@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body id="closebtn">
     <!-- Header -->
     <header class="header">
       <div class="header__top">
@@ -30,24 +30,27 @@
               <a class="click" href="#click"
                 ><img src="images/menu.svg" alt=""
               /></a>
-              <div class="container__links" id="click">
-                <div class="menu__close">
-                  <a class="closebtn" href="#"
-                    ><img src="images/close.svg" alt=""
-                  /></a>
+              <div class="closebtn">
+                <div class="container__links" id="click">
+                  <div class="menu__close">
+                    <a class="closebtn" href="#closebtn"
+                      ><img src="images/close.svg" alt=""
+                    /></a>
+                  </div>
+                  <ul class="click__link">
+                    <li class="">
+                      <a class="menu__link" href="#about">About</a>
+                    </li>
+                    <li class="">
+                      <a class="menu__link" href="#project">Projects</a>
+                    </li>
+                    <li class="">
+                      <a class="menu__link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
                 </div>
-                <ul class="click__link">
-                  <li class="">
-                    <a class="menu__link" href="#about">About</a>
-                  </li>
-                  <li class="">
-                    <a class="menu__link" href="#project">Projects</a>
-                  </li>
-                  <li class="">
-                    <a class="menu__link" href="#contact">Contact</a>
-                  </li>
-                </ul>
               </div>
+
               <!-- ------- -->
 
               <ul class="menu__list">
