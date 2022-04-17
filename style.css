@@ -416,7 +416,7 @@ button {
   .click__link {
     display: grid;
     text-align: center;
-    height: 70%;
+    height: 80%;
     align-content: space-evenly;
   }
 
