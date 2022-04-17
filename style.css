@@ -535,7 +535,6 @@ button {
   }
   .list-first__page {
     display: flex;
-    gap: 0;
     justify-content: center;
     width: auto;
     height: auto;
