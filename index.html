@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="media.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
       rel="stylesheet"
@@ -17,57 +17,53 @@
 
   <body id="closebtn">
     <!-- Header -->
-    <header class="header">
-      <div class="header__top">
-        <div class="container">
-          <div class="header__top-inner">
-            <div class="logo">
-              <a class="logo__link" href="">FemiBlaq</a>
-            </div>
-
-            <!-- ------ -->
-            <nav class="munu">
-              <a class="click" href="#click"
-                ><img src="images/menu.svg" alt=""
-              /></a>
-              <div class="closebtn">
-                <div class="container__links" id="click">
-                  <div class="menu__close">
-                    <a class="closebtn" href="#closebtn"
-                      ><img src="images/close.svg" alt=""
-                    /></a>
-                  </div>
-                  <ul class="click__link">
-                    <li class="">
-                      <a class="menu__link" href="#about">About</a>
-                    </li>
-                    <li class="">
-                      <a class="menu__link" href="#project">Projects</a>
-                    </li>
-                    <li class="">
-                      <a class="menu__link" href="#contact">Contact</a>
-                    </li>
-                  </ul>
-                </div>
+    <div class="block">
+      <header class="" id="header__menu">
+        <div class="logo">
+          <a class="logo__link" href="">FemiBlaq</a>
+        </div>
+        <!-- ------ -->
+        <nav class="munu">
+          <a class="click" href="#click"
+            ><img src="images/menu.svg" alt=""
+          /></a>
+          <div class="closebtn">
+            <div class="container__links" id="click">
+              <div class="menu__close">
+                <a class="closebtn" href="#closebtn"
+                  ><img src="images/close.svg" alt=""
+                /></a>
               </div>
-
-              <!-- ------- -->
-
-              <ul class="menu__list">
-                <li class="menu__list-item">
+              <ul class="click__link">
+                <li class="">
                   <a class="menu__link" href="#about">About</a>
                 </li>
-                <li class="menu__list-item">
+                <li class="">
                   <a class="menu__link" href="#project">Projects</a>
                 </li>
-                <li class="menu__list-item">
+                <li class="">
                   <a class="menu__link" href="#contact">Contact</a>
                 </li>
               </ul>
-            </nav>
+            </div>
           </div>
-        </div>
-      </div>
+          <!-- ------- -->
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__link" href="#about">About</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__link" href="#project">Projects</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    </div>
+    
+    <section class="header">
       <div class="header__content">
         <div class="container">
           <div class="header__content-inner">
@@ -87,7 +83,7 @@
           </div>
         </div>
       </div>
-    </header>
+    </section>
     <!-- About -->
     <section class="about" id="about">
       <div class="about__inner">
@@ -249,5 +245,6 @@
         </ul>
       </div>
     </footer>
+    <script type="text/javascript" src="js.js"></script>
   </body>
 </html>
