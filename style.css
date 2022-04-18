@@ -85,19 +85,23 @@ body {
   background-color: #f6f6fe;
   transition: 0.2s;
 }
+#closebtn:target {
+  animation-name: hide;
+  animation-duration: 1.3s;
+}
 #about:target {
   animation-name: hide;
   animation-duration: 1.3s;
-  scroll-margin-top: 80px;
+  scroll-margin-top: 100px;
 }
 #project:target {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 100px;
   animation-name: hide;
-  animation-duration: 1.8s;
+  animation-duration: 1.3s;
 }
 #contact:target {
   animation-name: hide;
-  animation-duration: 1.8s;
+  animation-duration: 1.3s;
 }
 .header__content-inner {
   display: flex;
@@ -105,7 +109,7 @@ body {
   justify-content: space-between;
 }
 .header .header__content-inner {
-  padding-top: 230px;
+  padding-top: 120px;
 }
 .header__content-top {
   margin: 0 0 24px 0;
@@ -647,7 +651,8 @@ body {
     width: 1004px;
     height: 70px;
   }
-  .header .header__content-inner {
-    padding-top: 200px;
+  .header img {
+    width: 415px;
+    height: 512px;
   }
 }
