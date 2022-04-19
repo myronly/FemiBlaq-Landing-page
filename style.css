@@ -184,7 +184,6 @@ body {
 }
 /* ---------About----------- */
 #about{
-  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 .left-img {
@@ -202,7 +201,6 @@ body {
   width: auto;
   height: auto;
   margin-bottom: 158px;
-  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 .title__project {
@@ -333,7 +331,6 @@ body {
 /*------Footer-------*/
 .contact {
   max-width: 1240px;
-  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 .contact__title {
