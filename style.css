@@ -183,6 +183,10 @@ body {
   transition: 0.2s;
 }
 /* ---------About----------- */
+#about{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
 .left-img {
   width: 300px;
   height: 429px;
@@ -198,6 +202,8 @@ body {
   width: auto;
   height: auto;
   margin-bottom: 158px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 .title__project {
   margin: 121px 0 80px;
@@ -327,6 +333,8 @@ body {
 /*------Footer-------*/
 .contact {
   max-width: 1240px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 .contact__title {
   text-align: center;
